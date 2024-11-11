@@ -1,0 +1,76 @@
+
+
+Aportes y agradecimientos -
+
+Música:
+Menú: &quot;Enchanted Festival&quot; 
+Author: Mathew Pablo
+https://opengameart.org/content/enchanted-festival
+Nivel 1, 2,: &quot;Gran Batalla&quot; 
+Author: xXUnderTowerXx
+https://opengameart.org/content/gran-batalla
+Nivel 3: &quot;The Dark Amulet&quot; 
+Author: Mathew Pablo
+https://opengameart.org/content/The-Dark-Amulet
+Creditos: &quot;Pleasant Creek&quot; 
+Author: Mathew Pablo
+https://opengameart.org/content/pleasant -creek
+Jefe: &quot;Collosal Boss Battle Theme &quot; 
+Author: Mathew Pablo
+https://opengameart.org/content/enchanted-festival
+Contador de Puntaje: &quot;Intense&quot; 
+https://opengameart.org/content/game-music-loop-intense
+
+Efectos especiales de sonido:
+Laser (héroe pulsado): &quot;12&quot; en 41 RANDOM SOUND EFFECTS
+Author: HorrorPen
+https://opengameart.org/content/41-random-sound-effects 
+
+Laser (héroe continuo): &quot;Star 1&quot; en Theremin Laser SFX -
+Author: Zane Little Music
+https://opengameart.org/content/theremin-laser-sfx
+
+<!-- Movimiento Jefe hacia pared: &quot;Magnet Action&quot; 
+https://opengameart.org/content/
+Atmospheric-Interaction -sound-pack 
+Author: legoluft-->
+Muerte enemigo: Sharp 2 en Theremin Laser SFX -
+https://opengameart.org/content/theremin-laser-sfx
+Author: Zane Little Music
+
+<!-- Impacto laser c objeto rigido: &quot;14&quot; en 41 RANDOM SOUND EFFECTS
+https://opengameart.org/content/41-random-sound-effects Author: HorrorPen-->
+<!-- Aviso de slime: &quot;30&quot; n 41 RANDOM SOUND EFFECTS
+https://opengameart.org/content/41-random-sound-effects Author: HorrorPen -->
+
+Sprites:
+
+Tile sets background:
+Menu: 
+Author: JustFourPan
+https://justfourpan.itch.io/2d-top-down-tileset-forest-adventure-16x16
+
+Nivel 1, 2, y 3: Faerie Forest 
+Author: PetricakeGames
+https://petricakegames.itch.io/faerie-forest-dungeon-tileset
+
+Enemigos y Slimes:
+Author: Shade
+https://merchant-shade.itch.io/16x16-puny-characters
+
+Jefe Enemigos: &quot;Goru The Incomplete&quot; 
+Author: Chiecola 
+https://chiecola.itch.io/goru-the-incomplete
+
+Sprite de personaje en control del Jefe: 
+Author: Shade
+https://merchant-shade.itch.io/16x16-puny-characters
+
+Personaje héroe:
+Author: Shade
+https://merchant-shade.itch.io/16x16-puny-characters
+
+Laser (sprite):
+Assets Free Laser Bullet Pack 2020 
+Author: Snoblin
+https://snoblin.itch.io/pixel-heart
