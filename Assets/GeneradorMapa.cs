@@ -19,9 +19,14 @@ public class GeneradorMapa : MonoBehaviour
     public float largoChunk = 17.78f; // Largo del chunk
     public Vector2 posicionInicial = Vector2.zero;  // Posición inicial (0,0)
     public List<TipoObjetivo> objetivosGenerador;
+    public int nivel;
 
     void Start()
     {
+        Reiniciar();
+    }
+
+    void Reiniciar(){
         CargarObjetivosPrefab();
         CargarPrefabs();
         foreach (var objetivo in objetivosGenerador)
@@ -56,7 +61,7 @@ public class GeneradorMapa : MonoBehaviour
             if (porcionMapa != null)
             {
                 TipoObjetivo tipoGenerado = porcionMapa.tipoGenerado;
-                if (objetivosGenerador.Contains(tipoGenerado))
+                if (objetivosGenerador.Contains(tipoGenerado) && porcionMapa.nivel.Contains(nivel))
                     prefabs[(int)tipoGenerado].Add(prefab);
             }
         }

@@ -5572,3 +5572,4 @@ MonoBehaviour:
   orientacion: {x: 0, y: 1}
   posicion: {x: 0, y: 0}
   tipoGenerado: 0
+  nivel: 0100000002000000

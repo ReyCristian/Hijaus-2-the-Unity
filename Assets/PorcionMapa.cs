@@ -10,6 +10,7 @@ public class PorcionMapa : MonoBehaviour
     private bool esperandoInicializacion = false;
     public GeneradorMapa.TipoObjetivo tipoGenerado;
     private bool isConectado = false;
+    [SerializeField] public List<int> nivel = new List<int>();
 
 
     void Start()
