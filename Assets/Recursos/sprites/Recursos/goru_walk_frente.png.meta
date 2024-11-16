@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9ee4ed27f30b28e4e93bfffc9ed2fc14
+guid: 794282b7bd89c534c9aa1f4b1524638c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,10 +45,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Orc-Peon-Red_0
+      name: goru_walk_frente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270fde95ee0016042ab374346c18581d
+      internalID: 1838084920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff609f017849e540ae70c81094b9a02
+      internalID: 1367587223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8f1d8353b9ee34caefde60250a024d
+      internalID: -957092749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36901a2cf36a2624188ae7436a5e39ae
+      internalID: 215882787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3039b79b9a868b74ab2b0e42381f73a5
+      internalID: 187910431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e826b74c45e7be489a9e6d1071cbff9
+      internalID: -1323738210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe31163105abee84b9b51c5aec078484
+      internalID: -1771689710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358382eb1e5b8d04b815864852e69fe8
+      internalID: -1180503180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42148ebbadd245b4c9dca02fc0062f5f
+      internalID: -951608274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6cbb87e8e13fa42853643c3f686ab1
+      internalID: -892644701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9fa36a3fb7cc40b90098fdf7a6d86
+      internalID: 2021440341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64609082e8f76d4e860c841fc00beba
+      internalID: 1078718376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,41 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f78cb17735dff8f41a1d7b76ee6fb548
-      internalID: -201028893
+      spriteID: c17ccac440316f04991b3774e53ad237
+      internalID: -1242199997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc-Peon-Red_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4916a8a1a4c217468027ce0707b3c63
-      internalID: -1886219055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_2
+      name: goru_walk_frente_13
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,41 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96a60285d4b6a648b09837797c2da1a
-      internalID: -1145905154
+      spriteID: 961175c7b5f7b344bb65138a74f5bbc4
+      internalID: -796458002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc-Peon-Red_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32233405c270ff941a0e175b366eb5b2
-      internalID: -114131307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_4
+      name: goru_walk_frente_14
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,41 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bef406a47f069b4db9860d334acca41
-      internalID: 1678903459
+      spriteID: b5fc1cf06985aae4787a2ab34920aec6
+      internalID: 1392284894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc-Peon-Red_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c17d6628ab6c26f4ea1bac7cc0d7bfab
-      internalID: -190254404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_6
+      name: goru_walk_frente_15
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,41 +426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49b556f8fb8a07d4abda17845d3a6950
-      internalID: -560857004
+      spriteID: 6c5bb11d1e2505a47a5a53341b9c426f
+      internalID: 127557253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc-Peon-Red_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ca396a9a02c0fc4a8309a43738f2b83
-      internalID: 351988188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_8
+      name: goru_walk_frente_16
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,41 +447,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fb8f3f6b87b954abe5d78152f6a3d1
-      internalID: -271683862
+      spriteID: ea28dacb5ab24494b8d7373d73de5ead
+      internalID: -905707237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc-Peon-Red_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 454b30c0339a35f4db1acc6d822b4c70
-      internalID: 1489196950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_10
+      name: goru_walk_frente_17
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,281 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85133d37bb0a83a45a6a03e5a83d9ebb
-      internalID: -572779952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7f703f4056d30947a377b494bd0dfa0
-      internalID: -428555379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_12
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 827d88fe7aa9ff64eac5ea6b92c799f4
-      internalID: -1840049216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 126db1e5596b158459ae48cf271b4ef0
-      internalID: 1734751899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_14
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2a6fef9906df314f969dde76e94ab1a
-      internalID: -374087018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d094fd400655f24c961dd700ba75e5f
-      internalID: -1629694233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_16
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54107525053aa1d488cda6dd648beef9
-      internalID: -2025924393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_17
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31bb95c749e65254abf9a4e515ad3475
-      internalID: -1331426232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_18
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ae6a790bbd11c648a5ba9d6916eee6f
-      internalID: -1617051521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_19
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3782100599f9c945a5a6c323f221cdb
-      internalID: -1421390701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_20
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 332e8a660793bf24abde278d6845faa3
-      internalID: -35066101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_21
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2ed6f58ab8e0534c831a2705846dbe8
-      internalID: 1383542049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_22
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ffd64ee6bb67cc41a2c8c1a898c0038
-      internalID: -1343514643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc-Peon-Red_23
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 344336ab4a53518489f6e81e482e9e05
-      internalID: 2031344759
+      spriteID: 8d247fcd7dbcd434c8747297f2c9d46d
+      internalID: -1953560564
       vertices: []
       indices: 
       edges: []
@@ -611,30 +485,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Orc-Peon-Red_0: -201028893
-      Orc-Peon-Red_1: -1886219055
-      Orc-Peon-Red_10: -572779952
-      Orc-Peon-Red_11: -428555379
-      Orc-Peon-Red_12: -1840049216
-      Orc-Peon-Red_13: 1734751899
-      Orc-Peon-Red_14: -374087018
-      Orc-Peon-Red_15: -1629694233
-      Orc-Peon-Red_16: -2025924393
-      Orc-Peon-Red_17: -1331426232
-      Orc-Peon-Red_18: -1617051521
-      Orc-Peon-Red_19: -1421390701
-      Orc-Peon-Red_2: -1145905154
-      Orc-Peon-Red_20: -35066101
-      Orc-Peon-Red_21: 1383542049
-      Orc-Peon-Red_22: -1343514643
-      Orc-Peon-Red_23: 2031344759
-      Orc-Peon-Red_3: -114131307
-      Orc-Peon-Red_4: 1678903459
-      Orc-Peon-Red_5: -190254404
-      Orc-Peon-Red_6: -560857004
-      Orc-Peon-Red_7: 351988188
-      Orc-Peon-Red_8: -271683862
-      Orc-Peon-Red_9: 1489196950
+      goru_walk_frente_0: 1838084920
+      goru_walk_frente_1: 1367587223
+      goru_walk_frente_10: 2021440341
+      goru_walk_frente_11: 1078718376
+      goru_walk_frente_12: -1242199997
+      goru_walk_frente_13: -796458002
+      goru_walk_frente_14: 1392284894
+      goru_walk_frente_15: 127557253
+      goru_walk_frente_16: -905707237
+      goru_walk_frente_17: -1953560564
+      goru_walk_frente_2: -957092749
+      goru_walk_frente_3: 215882787
+      goru_walk_frente_4: 187910431
+      goru_walk_frente_5: -1323738210
+      goru_walk_frente_6: -1771689710
+      goru_walk_frente_7: -1180503180
+      goru_walk_frente_8: -951608274
+      goru_walk_frente_9: -892644701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
