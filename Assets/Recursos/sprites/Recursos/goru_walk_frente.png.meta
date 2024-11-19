@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4388009b9954c314f8038c947f6eb4a1
+guid: 794282b7bd89c534c9aa1f4b1524638c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,10 +45,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Human-Soldier-Cyan_0
+      name: goru_walk_frente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270fde95ee0016042ab374346c18581d
+      internalID: 1838084920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff609f017849e540ae70c81094b9a02
+      internalID: 1367587223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8f1d8353b9ee34caefde60250a024d
+      internalID: -957092749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36901a2cf36a2624188ae7436a5e39ae
+      internalID: 215882787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3039b79b9a868b74ab2b0e42381f73a5
+      internalID: 187910431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e826b74c45e7be489a9e6d1071cbff9
+      internalID: -1323738210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe31163105abee84b9b51c5aec078484
+      internalID: -1771689710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358382eb1e5b8d04b815864852e69fe8
+      internalID: -1180503180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42148ebbadd245b4c9dca02fc0062f5f
+      internalID: -951608274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6cbb87e8e13fa42853643c3f686ab1
+      internalID: -892644701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9fa36a3fb7cc40b90098fdf7a6d86
+      internalID: 2021440341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64609082e8f76d4e860c841fc00beba
+      internalID: 1078718376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goru_walk_frente_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,41 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 835eb6059a3bf4d4090098f9b818f28b
-      internalID: 1412584130
+      spriteID: c17ccac440316f04991b3774e53ad237
+      internalID: -1242199997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human-Soldier-Cyan_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 669470e68faabfa47b5dc6e081064d92
-      internalID: -2072157235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_2
+      name: goru_walk_frente_13
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,41 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 004ef6335f4f86545acaae605f3b7f4d
-      internalID: 1080049329
+      spriteID: 961175c7b5f7b344bb65138a74f5bbc4
+      internalID: -796458002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human-Soldier-Cyan_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed21b8f0ebb01e54f88b3641e80f5e33
-      internalID: 1351203877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_4
+      name: goru_walk_frente_14
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,41 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5d485d7deb48245960ecf76db3af76
-      internalID: 1718115961
+      spriteID: b5fc1cf06985aae4787a2ab34920aec6
+      internalID: 1392284894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human-Soldier-Cyan_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a68009de8c7b614ca0519b7c51acd70
-      internalID: 1455238068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_6
+      name: goru_walk_frente_15
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,41 +426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b069f3533eb6024eb473998fa885eb6
-      internalID: -69624526
+      spriteID: 6c5bb11d1e2505a47a5a53341b9c426f
+      internalID: 127557253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human-Soldier-Cyan_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bb98b8f38b3c684ba9d3ba7b0f39806
-      internalID: 596570472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_8
+      name: goru_walk_frente_16
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,41 +447,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9af32ba7f4d7fd4c8b9c1cf82622d1a
-      internalID: 607067041
+      spriteID: ea28dacb5ab24494b8d7373d73de5ead
+      internalID: -905707237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human-Soldier-Cyan_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 624e93582a008094686de2cf21a6acac
-      internalID: -1250668928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_10
+      name: goru_walk_frente_17
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 32
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,281 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6a2c3e72204684f95d9539d5c5ced9
-      internalID: -73767714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0eb7c465d6fb9f047a71e824f0091cd8
-      internalID: 1114949177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_12
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cc9b8e8431f7b7428b36ebd3b001c9e
-      internalID: -2116250339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeaed432ffd440c4293eb5299c931762
-      internalID: -1093670574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_14
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6de96ae064923b246994578f3305292d
-      internalID: -877110939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2bb6cb46cbfad540936adc7c5b14f9a
-      internalID: 19003617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_16
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1519d1edb56c1cf4ba95812020213abd
-      internalID: 101490659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_17
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0768491d1d764b439c1a28eb683fa94
-      internalID: -791586866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_18
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aadf61fbc1ed09e49b32c2c3e08592ea
-      internalID: 856787741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_19
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a896f57ecd32ba04eb8bb01122097db8
-      internalID: 1661438138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_20
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d36f4559d08f8b3429988d44dbc58a20
-      internalID: 10735267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_21
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b71d3f5f180ed544895e3898e1b7573
-      internalID: 343314830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_22
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bca7ced9538b49949839113c72ee072a
-      internalID: 1857483096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human-Soldier-Cyan_23
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 32
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d124c68acf072348a8fbda336f03a0d
-      internalID: 1686322143
+      spriteID: 8d247fcd7dbcd434c8747297f2c9d46d
+      internalID: -1953560564
       vertices: []
       indices: 
       edges: []
@@ -611,30 +485,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Human-Soldier-Cyan_0: 1412584130
-      Human-Soldier-Cyan_1: -2072157235
-      Human-Soldier-Cyan_10: -73767714
-      Human-Soldier-Cyan_11: 1114949177
-      Human-Soldier-Cyan_12: -2116250339
-      Human-Soldier-Cyan_13: -1093670574
-      Human-Soldier-Cyan_14: -877110939
-      Human-Soldier-Cyan_15: 19003617
-      Human-Soldier-Cyan_16: 101490659
-      Human-Soldier-Cyan_17: -791586866
-      Human-Soldier-Cyan_18: 856787741
-      Human-Soldier-Cyan_19: 1661438138
-      Human-Soldier-Cyan_2: 1080049329
-      Human-Soldier-Cyan_20: 10735267
-      Human-Soldier-Cyan_21: 343314830
-      Human-Soldier-Cyan_22: 1857483096
-      Human-Soldier-Cyan_23: 1686322143
-      Human-Soldier-Cyan_3: 1351203877
-      Human-Soldier-Cyan_4: 1718115961
-      Human-Soldier-Cyan_5: 1455238068
-      Human-Soldier-Cyan_6: -69624526
-      Human-Soldier-Cyan_7: 596570472
-      Human-Soldier-Cyan_8: 607067041
-      Human-Soldier-Cyan_9: -1250668928
+      goru_walk_frente_0: 1838084920
+      goru_walk_frente_1: 1367587223
+      goru_walk_frente_10: 2021440341
+      goru_walk_frente_11: 1078718376
+      goru_walk_frente_12: -1242199997
+      goru_walk_frente_13: -796458002
+      goru_walk_frente_14: 1392284894
+      goru_walk_frente_15: 127557253
+      goru_walk_frente_16: -905707237
+      goru_walk_frente_17: -1953560564
+      goru_walk_frente_2: -957092749
+      goru_walk_frente_3: 215882787
+      goru_walk_frente_4: 187910431
+      goru_walk_frente_5: -1323738210
+      goru_walk_frente_6: -1771689710
+      goru_walk_frente_7: -1180503180
+      goru_walk_frente_8: -951608274
+      goru_walk_frente_9: -892644701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
