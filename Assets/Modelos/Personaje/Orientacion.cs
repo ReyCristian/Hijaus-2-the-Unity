@@ -8,10 +8,12 @@ public class Orientacion : MonoBehaviour
     public int Angulo {get;private set;}
 
     private Personaje personaje; // Referencia al script del personaje
+    private DireccionPersonaje giroSprite;
     private void Awake()
     {
         // Carga la referencia al personaje
         personaje = GetComponent<Personaje>();
+        giroSprite = GetComponentInChildren<DireccionPersonaje>();
     }
 
     void Update()
@@ -40,7 +42,36 @@ public class Orientacion : MonoBehaviour
 
     public void apuntar(float anguloEnGrados){
 	    Angulo = anguloSimplificado(anguloEnGrados);
-        personaje.sprite.transform.rotation = Quaternion.Euler(0, 0, Angulo);
+        switch (Angulo)
+        {
+            case 0:
+                giroSprite.direccion = DireccionPersonaje.Direction.Derecha;
+                break;
+            case 45:
+                giroSprite.direccion = DireccionPersonaje.Direction.ArribaDerecha;
+                break;
+            case 90:
+                giroSprite.direccion = DireccionPersonaje.Direction.Arriba;
+                break;
+            case 135:
+                giroSprite.direccion = DireccionPersonaje.Direction.ArribaIzquierda;
+                break;
+            case 180:
+                giroSprite.direccion = DireccionPersonaje.Direction.Izquierda;
+                break;
+            case 225:
+                giroSprite.direccion = DireccionPersonaje.Direction.AbajoIzquierda;
+                break;
+            case 270:
+                giroSprite.direccion = DireccionPersonaje.Direction.Abajo;
+                break;
+            case 315:
+                giroSprite.direccion = DireccionPersonaje.Direction.AbajoDerecha;
+                break;
+            default:
+                // Acción para ángulo no esperado
+                break;
+        }
     }
 
 
