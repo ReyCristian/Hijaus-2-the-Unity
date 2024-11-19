@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Controles : MonoBehaviour
 {
-
-    public GameObject heroe;
     //public GameObject mapa;
     private Personaje personaje;
     public SetDeControles setDeControles;
@@ -14,7 +12,7 @@ public class Controles : MonoBehaviour
 
     void Awake()
     {
-        personaje = heroe.GetComponent<Personaje>();
+        personaje = GetComponent<Personaje>();
     }
 
 
