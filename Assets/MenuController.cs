@@ -7,10 +7,6 @@ public class MenuController : MonoBehaviour
 {
 
   [SerializeField] private GameObject MenuPrincipal, Personaje, Opciones, Niveles;
-  private async void Start()
-    {
-
-    }
 
   public void OnButtonClicked()
     {

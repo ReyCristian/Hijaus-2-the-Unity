@@ -9,8 +9,6 @@ public class Choque : MonoBehaviour
     public GameObject lanzador;
     private void OnTriggerEnter2D(Collider2D golpeado)
     {
-        Debug.Log(golpeado.gameObject.layer);
-        Debug.Log(golpeado.gameObject);
         if (((1 << golpeado.gameObject.layer) & capaDeseada) != 0)
         {     
         // Verificar si el objeto con el que colisionó tiene el script Vida

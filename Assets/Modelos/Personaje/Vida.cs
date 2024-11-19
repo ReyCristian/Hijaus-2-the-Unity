@@ -30,7 +30,6 @@ public class Vida : MonoBehaviour
     }
 
     public bool recibirGolpe(GameObject golpeador){
-        Debug.Log(golpeador);
         if (golpeador != null && golpeador != gameObject){
             vida--;
             comprobarVida();

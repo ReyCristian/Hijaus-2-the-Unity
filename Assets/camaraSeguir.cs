@@ -7,7 +7,7 @@ public class CamaraSeguir : MonoBehaviour
 
     public float velocidadMinima = 0f;  // Velocidad mínima
     public float velocidadMaxima = 3f;  // Velocidad máxima
-    public float factorDistancia = 0.008f;  // Factor que controla cómo cambia la velocidad
+    public float factorDistancia = 0.05f;  // Factor que controla cómo cambia la velocidad
 
     private Vector3 desplazamiento;  // Desplazamiento entre la cámara y el jugador
     [SerializeField] private Transform hordaTransform;
@@ -16,24 +16,27 @@ public class CamaraSeguir : MonoBehaviour
     public float limiteInferiorY = -Mathf.Infinity;
 
 
-    void Awake()
-    {
-        // Buscamos el jugador por su tag
-        jugador = GameObject.FindGameObjectWithTag("Player").transform;
-        // Obtenemos el Rigidbody2D del jugador
-        rbJugador = jugador.GetComponent<Rigidbody2D>();
-    }
-
     void Start()
     {
-        // Calculamos el desplazamiento inicial
-        desplazamiento.z = (transform.position - jugador.position).z;
+        loadPlayer();
         camara = GetComponent<Camera>();
 
     }
 
+    private void loadPlayer(){
+        jugador = GameObject.FindGameObjectWithTag("Player").transform;
+        rbJugador = jugador.GetComponent<Rigidbody2D>();
+        
+        // Calculamos el desplazamiento inicial
+        desplazamiento.z = (transform.position - jugador.position).z;
+    }
+
     void LateUpdate()
     {
+        if (rbJugador == null)
+            loadPlayer();
+        if (rbJugador == null)
+            return;
         Vector3 vectorDistancia = transform.position - jugador.position;
 
         vectorDistancia.x = vectorDistancia.x * 9 / 16;
