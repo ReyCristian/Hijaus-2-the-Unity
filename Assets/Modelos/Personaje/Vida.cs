@@ -29,7 +29,7 @@ public class Vida : MonoBehaviour
         
     }
 
-    public bool recibirGolpe(GameObject golpeador){
+    public bool RecibirGolpe(GameObject golpeador){
         if (golpeador != null && golpeador != gameObject){
             vida--;
             comprobarVida();

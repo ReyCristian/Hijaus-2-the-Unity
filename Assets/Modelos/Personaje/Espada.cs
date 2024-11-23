@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class Espada : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    private Animator animator;
+
     void Start()
     {
-        
+        animator = GetComponentInChildren<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter2D(Collider2D otro)
     {
-        
+        if (otro.CompareTag("Player"))
+        {
+            Vida vida = otro.GetComponentInParent<Vida>();
+            if (vida != null)
+            {
+                vida.RecibirGolpe(gameObject);
+            }
+            animator.SetTrigger("Ataca");
+        }
     }
 }

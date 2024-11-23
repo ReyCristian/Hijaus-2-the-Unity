@@ -14,7 +14,7 @@ public class Choque : MonoBehaviour
         // Verificar si el objeto con el que colisionó tiene el script Vida
             Vida vidaGolpeado = golpeado.GetComponentInParent<Vida>();
             
-            if (vidaGolpeado == null || vidaGolpeado.recibirGolpe(lanzador))  // Si tiene el script Vida
+            if (vidaGolpeado == null || vidaGolpeado.RecibirGolpe(lanzador))  // Si tiene el script Vida
             {
                 Destroy(gameObject);
             }

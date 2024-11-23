@@ -23,12 +23,21 @@ public class CamaraSeguir : MonoBehaviour
 
     }
 
-    private void loadPlayer(){
-        jugador = GameObject.FindGameObjectWithTag("Player").transform;
-        rbJugador = jugador.GetComponent<Rigidbody2D>();
-        
-        // Calculamos el desplazamiento inicial
-        desplazamiento.z = (transform.position - jugador.position).z;
+    private void loadPlayer()
+    {
+        GameObject[] jugadores = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject obj in jugadores)
+        {
+            if (obj.GetComponent<Personaje>() != null)
+            {
+                jugador = obj.transform;
+                rbJugador = jugador.GetComponent<Rigidbody2D>();
+
+                // Calculamos el desplazamiento inicial
+                desplazamiento.z = (transform.position - jugador.position).z;
+                break;
+            }
+        }
     }
 
     void LateUpdate()

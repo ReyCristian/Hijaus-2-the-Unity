@@ -16,6 +16,8 @@ public class Caminar : MonoBehaviour
     private Personaje personaje; // Referencia al script del personaje
     private Rigidbody2D rb;       // Referencia al Rigidbody2D
     public float velocidadSuavizado = 1f;  // Factor que controla cómo cambia la velocidad
+    public Animator animator;
+
 
 
     private void Awake()
@@ -23,8 +25,7 @@ public class Caminar : MonoBehaviour
         // Carga la referencia al personaje
         personaje = GetComponent<Personaje>();
         rb = GetComponent<Rigidbody2D>();
-
-        
+        animator = GetComponentInChildren<Animator>();        
     }
 
     private void FixedUpdate()
@@ -32,7 +33,9 @@ public class Caminar : MonoBehaviour
         // Si el personaje está en espera o muerto, no hace nada
         if (personaje != null && (personaje.esperando || personaje.vida.muerto))
         {
-           return;
+            if (animator != null)
+                animator.SetBool("Camina", false);
+            return;
         }
         
         // Normaliza la dirección del personaje
@@ -53,6 +56,8 @@ public class Caminar : MonoBehaviour
             //transform.Translate(movimiento);
             //rb.velocity = Vector3.Lerp(rb.velocity, direccionFinal * personaje.velocidad, Time.deltaTime * velocidadSuavizado);
             rb.velocity = direccionFinal * velocidad;
+            if (animator != null)
+                animator.SetBool("Camina", direccionFinal.magnitude > 0);
             rb.angularVelocity = 0;
         }
 

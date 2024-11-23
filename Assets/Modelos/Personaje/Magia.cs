@@ -10,12 +10,13 @@ public class Magia : MonoBehaviour
     private Dictionary<int, GameObject> puntosDisparo;  // Diccionario de puntos de disparo por ángulo
     public Transform conjuntoPuntosDisparo;
     private Personaje personaje; // Referencia al script del personaje
-
     private bool disparoHabilitado = true;
+    public Animator animator;
     private void Awake()
     {
         // Carga la referencia al personaje
         personaje = GetComponent<Personaje>();
+        animator = GetComponentInChildren<Animator>();        
     }
 
     void Start()
@@ -48,7 +49,8 @@ public class Magia : MonoBehaviour
         else
             foreach (var item in puntosDisparo)
             {
-                Debug.Log(item);
+                Debug.LogWarning("No se encontró punto de disparo");
+                Debug.LogWarning(item);
             }
         return null;  // Si no se encuentra un punto con el ángulo especificado
     }
@@ -65,12 +67,14 @@ public class Magia : MonoBehaviour
                 capacidadChoque.lanzador = gameObject;
             disparoHabilitado = false;
             StartCoroutine(RehabilitarDisparo());
+            animator.SetBool("Ataca",true);
         }
     }
     private IEnumerator RehabilitarDisparo()
 {
     yield return new WaitForSeconds(0.5f);  // Espera 0.5 segundos
     disparoHabilitado = true;  // Habilita el disparo nuevamente
+    animator.SetBool("Ataca",false);
 }
 
 
