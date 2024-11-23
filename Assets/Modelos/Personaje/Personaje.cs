@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
-    public bool esperando { get; private set; } = false;
+    public bool esperando = false;
     public bool enDemo = false;
 
     public ListasTexturas.TexturasPersonaje skin;

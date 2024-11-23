@@ -32,7 +32,7 @@ public class Caminar : MonoBehaviour
         // Si el personaje está en espera o muerto, no hace nada
         if (personaje != null && (personaje.esperando || personaje.vida.muerto))
         {
-            return;
+           return;
         }
         
         // Normaliza la dirección del personaje
@@ -53,8 +53,9 @@ public class Caminar : MonoBehaviour
             //transform.Translate(movimiento);
             //rb.velocity = Vector3.Lerp(rb.velocity, direccionFinal * personaje.velocidad, Time.deltaTime * velocidadSuavizado);
             rb.velocity = direccionFinal * velocidad;
-
+            rb.angularVelocity = 0;
         }
+
     }
 
     private Vector2 AgregarDireccionAutomatica(Vector2 direccion)

@@ -23,7 +23,13 @@ public class GeneradorMapa : MonoBehaviour
 
     void Start()
     {
+        cargarSemilla();
         Reiniciar();
+    }
+
+    private void cargarSemilla(){
+        int seed = System.DateTime.Now.DayOfYear;
+        Random.InitState(seed);
     }
 
     void Reiniciar(){
