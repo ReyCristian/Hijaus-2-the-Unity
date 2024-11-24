@@ -95,4 +95,6 @@ public class GeneradorMapa : MonoBehaviour
         if (porcionMapa != null)
             porcionMapa.posicion = pos;
     }
+    
 }
+

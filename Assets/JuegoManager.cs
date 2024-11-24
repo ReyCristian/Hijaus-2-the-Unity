@@ -33,12 +33,15 @@ public class JuegoManager : MonoBehaviour
     }
 
     public void Nivel1(){
+        AsignarNivel(1);
         Jugar();
     }
     public void Nivel2(){
+        AsignarNivel(2);
         Jugar();
     }
     public void Nivel3(){
+        AsignarNivel(3);
         Jugar();
     }
 
@@ -47,9 +50,20 @@ public class JuegoManager : MonoBehaviour
 
     void Update()
     {
-    if (Input.GetButton("Pausa"))
+        if (Input.GetButton("Pausa"))
         {
             Pausa();
+        }
+    }
+
+    public void AsignarNivel(int nivel){
+        foreach (Transform child in Mapa.transform)
+        {
+            GeneradorMapa generador = child.GetComponent<GeneradorMapa>();
+            if (generador != null)
+            {
+                generador.nivel = nivel;
+            }
         }
     }
 

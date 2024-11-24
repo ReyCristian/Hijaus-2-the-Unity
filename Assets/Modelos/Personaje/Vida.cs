@@ -51,6 +51,7 @@ public class Vida : MonoBehaviour
 
     public void Morir()
     {
+        Debug.Log(gameObject);
         if (muerto)
         {
             return;
@@ -78,6 +79,7 @@ public class Vida : MonoBehaviour
                 rb.velocity = Vector3.zero;
                 rb.angularVelocity = 0;  
                 }
+                Destroy(gameObject,3f);
             }
             else
                 Destroy(gameObject);
