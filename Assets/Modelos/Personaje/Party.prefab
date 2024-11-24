@@ -263,7 +263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2345454606976001550, guid: 31f8175783db78f4eb509638239a1377, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2345454606976001550, guid: 31f8175783db78f4eb509638239a1377, type: 3}
       propertyPath: m_TagString
@@ -309,6 +309,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4828852415960664568, guid: 31f8175783db78f4eb509638239a1377, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 990397680, guid: 83de3ca9e1cc7ae459fea250938e254a, type: 3}
+    - target: {fileID: 6728583811581149103, guid: 31f8175783db78f4eb509638239a1377, type: 3}
+      propertyPath: m_Name
+      value: Soldado 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8145799510057598157, guid: 31f8175783db78f4eb509638239a1377, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1d7a7a855f491684b9a1870263ad0840, type: 2}
     - target: {fileID: 9071287624936668782, guid: 31f8175783db78f4eb509638239a1377, type: 3}
       propertyPath: m_TagString
       value: Player

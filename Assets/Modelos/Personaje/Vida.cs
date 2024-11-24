@@ -9,6 +9,8 @@ public class Vida : MonoBehaviour
     public int vida = 3;
     public bool muerto { get; private set; } = false;
     //private bool limpiarCadaver = true;
+    
+    private Animator animator;
 
     public delegate void MuerteEvent(ListasTexturas.TexturasPersonaje skin);
     public event MuerteEvent Muerte;
@@ -16,6 +18,7 @@ public class Vida : MonoBehaviour
     private void Awake()
     {
         personaje = GetComponent<Personaje>();
+        animator = GetComponentInChildren<Animator>();
     }
     // Start is called before the first frame update
     void Start()
@@ -66,7 +69,18 @@ public class Vida : MonoBehaviour
         if (!CompareTag("Demo"))
         {
             muerto = true;
-            Destroy(gameObject);
+            if (animator !=null)
+            {
+                animator.SetTrigger("Muere");
+                Rigidbody2D rb = GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                rb.velocity = Vector3.zero;
+                rb.angularVelocity = 0;  
+                }
+            }
+            else
+                Destroy(gameObject);
         }
         
     }
