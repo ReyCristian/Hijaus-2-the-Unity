@@ -6,7 +6,6 @@ public class JuegoManager : MonoBehaviour
 {
 
     [SerializeField] private GameObject Mapa,Camara,Menu, spawnParties;
-    
 
     public void Jugar(){
         Menu.SetActive(false);
@@ -46,6 +45,10 @@ public class JuegoManager : MonoBehaviour
     }
 
     public void Salir(){
+        Application.Quit();
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
     }
 
     void Update()
@@ -66,5 +69,8 @@ public class JuegoManager : MonoBehaviour
             }
         }
     }
-
+    
+    public void setMapa(GameObject mapa){
+        Mapa = mapa;
+    }
 }

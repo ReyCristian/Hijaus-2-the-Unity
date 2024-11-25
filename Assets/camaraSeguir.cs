@@ -85,4 +85,17 @@ public class CamaraSeguir : MonoBehaviour
     private bool isDesplazamientoVertical(){
         return true;
     }
+
+    public void Reiniciar()
+    {
+        Vector3 nuevaPosicion = transform.position;
+        nuevaPosicion.y = jugador.position.y;
+        
+        if (!isDesplazamientoVertical())
+            nuevaPosicion.x = jugador.position.x;
+        
+        transform.position = nuevaPosicion;
+    }
+
+
 }
