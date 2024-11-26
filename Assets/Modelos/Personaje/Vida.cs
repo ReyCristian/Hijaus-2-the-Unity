@@ -55,7 +55,7 @@ public class Vida : MonoBehaviour
         {
             return;
         }
-
+        vida =0;
         // Ejecuta la animación de muerte
         //animacion.Morir();
 

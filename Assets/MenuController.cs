@@ -46,5 +46,10 @@ public class MenuController : MonoBehaviour
     AbrirMenuPrincipal();
     Creditos.SetActive(false);
   }
+
+  public void ToggleFullscreen()
+  {
+      Screen.fullScreen = !Screen.fullScreen;
+  }
   
 }
