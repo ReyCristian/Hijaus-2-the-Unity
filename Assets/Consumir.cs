@@ -7,6 +7,8 @@ public class Consumir : MonoBehaviour
     private HashSet<Collider2D> objetosDentro = new HashSet<Collider2D>();
     private void OnTriggerEnter2D(Collider2D otro)
     {
+        if (otro.CompareTag("Boss"))
+            return;
         Vida vida = otro.GetComponentInParent<Vida>();
         if (vida != null)
         {
@@ -17,6 +19,8 @@ public class Consumir : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D otro)
     {
+        if (otro.CompareTag("Boss"))
+            return;
         objetosDentro.Remove(otro);
         if (otro.transform.position.y < transform.position.y)
         {
@@ -38,7 +42,7 @@ public class Consumir : MonoBehaviour
 
     private IEnumerator DañarCada3Seg(Collider2D objeto, Vida vida)
     {
-        while (objetosDentro.Contains(objeto))
+        while (!objeto.CompareTag("Boss") && objetosDentro.Contains(objeto))
         {
             vida.RecibirGolpe(gameObject);
             yield return new WaitForSeconds(3f);
@@ -54,13 +58,11 @@ public class Consumir : MonoBehaviour
             {
                 if (hijo.position.y < transform.position.y && !EsVisiblePorCamara(hijo.gameObject))
                 {
+                    if (!hijo.CompareTag("Boss"))
                     Destroy(hijo.gameObject);
                 }
             }
         }
-
-        // Limpia de la lista los objetos que ya no tienen hijos
-        objetos.RemoveAll(obj => obj.transform.childCount == 0);
     }
 
     private bool EsVisiblePorCamara(GameObject obj)

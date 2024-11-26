@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Choque : MonoBehaviour
 {
+    public bool destruirse = true;
     public LayerMask capaDeseada = -1;
     public GameObject lanzador;
     private void OnTriggerEnter2D(Collider2D golpeado)
@@ -16,11 +17,12 @@ public class Choque : MonoBehaviour
             
             if (vidaGolpeado == null || vidaGolpeado.RecibirGolpe(lanzador))  // Si tiene el script Vida
             {
+                if (destruirse)
                 Destroy(gameObject);
             }
         }
     }
     private void OnCollisionEnter2D(Collision2D golpeado) {
-        //OnTriggerEnter2D(golpeado.collider);
+        OnTriggerEnter2D(golpeado.collider);
     }
 }
