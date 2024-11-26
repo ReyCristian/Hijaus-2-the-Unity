@@ -24,7 +24,7 @@ public class GeneradorMapa : MonoBehaviour
 
     void Start()
     {
-        //cargarSemilla();
+        cargarSemilla();
         Reiniciar();
     }
 
@@ -38,7 +38,7 @@ public class GeneradorMapa : MonoBehaviour
         CargarPrefabs();
         foreach (var objetivo in objetivosGenerador)
         {
-            Generar(Vector2.zero,(int)objetivo);  
+            Generar(posicionInicial,(int)objetivo);  
         }
     }
 
@@ -87,7 +87,7 @@ public class GeneradorMapa : MonoBehaviour
         GameObject prefabAEspawnear = prefabsObjetivo[indiceAleatorio];
 
         // Calcular la nueva posición sumando el alto y largo del chunk
-        Vector3 posicionGenerada = new Vector3(posicionInicial.x + largoChunk * pos.x, posicionInicial.y+ altoChunk * pos.y, capa);
+        Vector3 posicionGenerada = new Vector3(largoChunk * pos.x, altoChunk * pos.y, capa);
 
         // Instancia el prefab como hijo del objeto actual
         GameObject nuevaPorcion = Instantiate(prefabAEspawnear, posicionGenerada, Quaternion.identity, transform);
