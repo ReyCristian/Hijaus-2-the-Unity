@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mago
       objectReference: {fileID: 0}
+    - target: {fileID: 6728583811581149103, guid: 31f8175783db78f4eb509638239a1377, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
+      objectReference: {fileID: 0}
     - target: {fileID: 8145799510057598157, guid: 31f8175783db78f4eb509638239a1377, type: 3}
       propertyPath: m_Controller
       value: 

@@ -42,6 +42,20 @@ public class MenuController : MonoBehaviour
     Niveles.SetActive(true);
   }
 
+  public void MostrarCreditos(){
+    ActivarCanvas();
+    AbrirMenuPrincipal();
+    Creditos.SetActive(true);
+  }
+
+  void ActivarCanvas()
+  {
+      if (transform.childCount > 0)
+      {
+          transform.GetChild(0).gameObject.SetActive(true);
+      }
+  }
+
   public void TerminarCreditos(){
     AbrirMenuPrincipal();
     Creditos.SetActive(false);

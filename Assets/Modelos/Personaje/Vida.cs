@@ -43,7 +43,7 @@ public class Vida : MonoBehaviour
         if (golpeador != null && golpeador != gameObject && tiempoInmunidad <= 0f){
             vida--;
             comprobarVida();
-            tiempoInmunidad = 1f; // Inicia la inmunidad por 1 segundo
+            tiempoInmunidad = 0.5f; // Inicia la inmunidad por 1 segundo
             return true;
         }
         return false;
@@ -67,7 +67,8 @@ public class Vida : MonoBehaviour
         // Emite el evento si el personaje es un enemigo
         if (personaje && CompareTag("Enemigo"))
         {
-            Muerte?.Invoke(personaje.skin);
+            //Muerte?.Invoke(personaje.skin);
+            Destroy(gameObject);
         }
 
         // Comprueba condiciones adicionales antes de morir
