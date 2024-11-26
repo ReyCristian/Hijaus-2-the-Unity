@@ -6,7 +6,7 @@ using UnityEngine;
 public class MenuController : MonoBehaviour
 {
 
-  [SerializeField] private GameObject MenuPrincipal, Personaje, Opciones, Niveles;
+  [SerializeField] private GameObject MenuPrincipal, Personaje, Opciones, Niveles, Creditos;
 
   public void OnButtonClicked()
     {
@@ -40,6 +40,11 @@ public class MenuController : MonoBehaviour
     Personaje.SetActive(false);
     Opciones.SetActive(false);
     Niveles.SetActive(true);
+  }
+
+  public void TerminarCreditos(){
+    AbrirMenuPrincipal();
+    Creditos.SetActive(false);
   }
   
 }
