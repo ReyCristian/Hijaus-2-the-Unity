@@ -18,6 +18,7 @@ public class GeneradorMapa : MonoBehaviour
     public float altoChunk = 10f;  // Alto del chunk
     public float largoChunk = 17.78f; // Largo del chunk
     public Vector2 posicionInicial = Vector2.zero;  // Posición inicial (0,0)
+    public Vector2 posicionFinal = Vector2.zero;  // Posición inicial (0,0)
     public List<TipoObjetivo> objetivosGenerador;
     public int nivel;
 
@@ -74,7 +75,8 @@ public class GeneradorMapa : MonoBehaviour
     }
 
     public void Generar(Vector2 pos,int objetivo = (int) TipoObjetivo.SUELO,float capa = 0){
-        GenerarAleatorio(prefabs[(int)objetivo],pos,capa);
+        if (posicionFinal == Vector2.zero || pos!=posicionFinal)
+            GenerarAleatorio(prefabs[(int)objetivo],pos,capa);
     }
  
     private void GenerarAleatorio(List<GameObject> prefabsObjetivo,Vector2 pos, float capa = 0)

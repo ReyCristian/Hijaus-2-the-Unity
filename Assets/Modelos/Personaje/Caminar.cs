@@ -33,8 +33,8 @@ public class Caminar : MonoBehaviour
         // Si el personaje está en espera o muerto, no hace nada
         if (personaje != null && (personaje.esperando || personaje.vida.muerto))
         {
-            if (animator != null)
-                animator.SetBool("Camina", false);
+            if (animator != null){
+                animator.SetBool("Camina", false);}
             return;
         }
         
