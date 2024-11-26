@@ -7,7 +7,7 @@ public class Horda : MonoBehaviour
     private List<GameObject> spritesHorda = new List<GameObject>(); // Lista de hijos (sprites)
     private BoxCollider2D colliderRectangulo; // Collider para definir el área rectangular
     private float porcentajeDesplazamiento = 0.2f; // Porcentaje de desplazamiento (20%)
-
+    [SerializeField] private Vector2 offset;
 
     void Start()
     {
@@ -42,8 +42,8 @@ public class Horda : MonoBehaviour
         float altoSprite = sprite.bounds.size.y / 2;
 
         // Calcular cuántos clones caben en el eje X y Y
-        int cantidadX = Mathf.FloorToInt(tamanoCollider.x / anchoSprite);
-        int cantidadY = Mathf.FloorToInt(tamanoCollider.y / altoSprite );
+        int cantidadX = Mathf.FloorToInt((tamanoCollider.x+offset.x) / anchoSprite);
+        int cantidadY = Mathf.FloorToInt((tamanoCollider.y+offset.y) / altoSprite );
 
         // Clonar los sprites dentro del área del collider
         for (int x = 0; x <= cantidadX; x++)
