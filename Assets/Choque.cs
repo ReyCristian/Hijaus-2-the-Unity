@@ -21,6 +21,6 @@ public class Choque : MonoBehaviour
         }
     }
     private void OnCollisionEnter2D(Collision2D golpeado) {
-        OnTriggerEnter2D(golpeado.collider);
+        //OnTriggerEnter2D(golpeado.collider);
     }
 }

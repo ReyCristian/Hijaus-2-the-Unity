@@ -51,7 +51,6 @@ public class Vida : MonoBehaviour
 
     public void Morir()
     {
-        Debug.Log(gameObject);
         if (muerto)
         {
             return;
