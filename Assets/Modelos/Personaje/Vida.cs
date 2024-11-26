@@ -22,7 +22,7 @@ public class Vida : MonoBehaviour
     {
         personaje = GetComponent<Personaje>();
         animator = GetComponentInChildren<Animator>();
-        audioSource = GetComponentInParent<AudioSource>();
+        audioSource = GetComponentInChildren<AudioSource>();
 
     }
     // Start is called before the first frame update
@@ -31,19 +31,21 @@ public class Vida : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Update(){
+        // Actualiza el temporizador de inmunidad
+        if (tiempoInmunidad > 0f){
+            tiempoInmunidad -= Time.deltaTime;
+        }
     }
+    private float tiempoInmunidad = 0f; // Tiempo de inmunidad en segundos
 
     public bool RecibirGolpe(GameObject golpeador){
-        if (golpeador != null && golpeador != gameObject){
+        if (golpeador != null && golpeador != gameObject && tiempoInmunidad <= 0f){
             vida--;
             comprobarVida();
+            tiempoInmunidad = 1f; // Inicia la inmunidad por 1 segundo
             return true;
         }
-        //devuelve falso si falla el golpe
         return false;
     }
 

@@ -10,7 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2345454606976001550, guid: 31f8175783db78f4eb509638239a1377, type: 3}
       propertyPath: m_Name
-      value: Mago Variant
+      value: Mago
+      objectReference: {fileID: 0}
+    - target: {fileID: 3139557597047233980, guid: 31f8175783db78f4eb509638239a1377, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3139557597047233980, guid: 31f8175783db78f4eb509638239a1377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3937415007220618290, guid: 31f8175783db78f4eb509638239a1377, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89,3 +97,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b88497f22e0e7e418f78cc00cf5738f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tiempoEspera: 2

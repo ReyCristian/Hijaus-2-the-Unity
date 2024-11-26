@@ -24,7 +24,7 @@ public class GeneradorMapa : MonoBehaviour
 
     void Start()
     {
-        cargarSemilla();
+        //cargarSemilla();
         Reiniciar();
     }
 
